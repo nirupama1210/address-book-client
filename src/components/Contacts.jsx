@@ -505,11 +505,11 @@ getBDay(date)
         const bday = new Date(date)
         const today = new Date()
         var nextBdayYear = today.getFullYear()
-        if((today.getMonth()===bday.getMonth() && today.getDay()===bday.getDay()) || today.getMonth() > bday.getMonth())
+        if((today.getMonth()===bday.getMonth() && today.getDate()>=bday.getDate()) || today.getMonth() > bday.getMonth())
         {
-            nextBdayYear = today.year + 1
+            nextBdayYear = today.getFullYear() + 1
         }
-        var nextBday = new Date(nextBdayYear,bday.getMonth(),bday.getDay())
+        var nextBday = new Date(nextBdayYear,bday.getMonth(),bday.getDate())
         var diff=nextBday - today
         var days = (Math.round((diff)/(1000*60*60*24)))
         return days
