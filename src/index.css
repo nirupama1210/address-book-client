@@ -712,6 +712,7 @@ height: 100%;
   cursor: pointer;
 }
 #sign-in-link{
+  margin-top: 5px;
   margin: 40px;
   color: #0D00A7;
   cursor: pointer;
