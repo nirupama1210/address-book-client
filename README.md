@@ -1,7 +1,7 @@
 ![image](https://user-images.githubusercontent.com/32570896/160166396-9fc5863b-e8a0-4f48-b040-58e322214efc.png)
 
 
-# Address Book
+# Address Book Client
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/nirupama1210/address-book-client)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/nirupama1210/address-book-client)
