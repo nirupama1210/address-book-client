@@ -289,7 +289,7 @@ class Forgot extends Component {
                      {this.state.emailError ? <span className='errors'>{this.state.emailErrorDisplay}</span> : ''} 
                      
                      <span className='tb'>
-                     <input type={this.state.show?"text":"password"} className='passtb' name='pass' placeholder="Password" onChange={(e)=>this.handleChange(e)}/>
+                     <input type={this.state.show?"text":"password"} className='passtb' name='pass' placeholder="New Password" onChange={(e)=>this.handleChange(e)}/>
                      {this.state.show?<FaEyeSlash color='#0D00A7' onClick={()=>this.hidePassword()} className='eye'/>:<FaEye color='#0D00A7' onClick={()=>this.showPassword()} className='eye'/>}
                      </span>
                      
